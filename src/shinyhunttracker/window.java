@@ -814,7 +814,7 @@ public class window{
 
         HBox visablility = new HBox();
         visablility.setSpacing(5);
-        Label visableLabel = new Label("Visable:");
+        Label visableLabel = new Label("Visible:");
         CheckBox visableCheck = new CheckBox();
         visableCheck.setSelected(image.isVisible());
         visablility.getChildren().addAll(visableLabel, visableCheck);
@@ -962,7 +962,7 @@ public class window{
 
         HBox visablility = new HBox();
         visablility.setSpacing(5);
-        Label visableLabel = new Label("Visable:");
+        Label visableLabel = new Label("Visible:");
         CheckBox visableCheck = new CheckBox();
         visableCheck.setSelected(label.isVisible());
         visablility.getChildren().addAll(visableLabel, visableCheck);
